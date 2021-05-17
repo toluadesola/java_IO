@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         String environmentVariable;
+
         Scanner inputText = new Scanner(System.in);
         //check for passed argument
         if(args.length>0){
